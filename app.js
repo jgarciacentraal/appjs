@@ -58,10 +58,10 @@ document.getElementById('product-form')
              const year = document.getElementById("year").value
 
              
-            // Create new Product
+           // Create a new Oject Product
             const product = new Product(name, price, year)
 
-
+            // Create a new UI
             const ui = new UI()
               //Validation Form
             if(name === '' || price === '' || year=== ''){
